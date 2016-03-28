@@ -102,5 +102,6 @@ int main(int argc, char **argv)
 
 
 	grn_destroy(&net);
+	grn_destroy(&netcpy);
 	return EXIT_SUCCESS;
 }
