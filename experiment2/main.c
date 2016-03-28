@@ -75,7 +75,6 @@ int main(int argc, char **argv)
 			pattern = !pattern;
 
 		grn_copy(&netcpy, &net);
-		grn_mutate_single(&net, 0.1, 0.0067);
 		grn_mutate_single(&netcpy, 0.1, 0.0067);
 
 		grn_run(&net, phenotype, 10);
